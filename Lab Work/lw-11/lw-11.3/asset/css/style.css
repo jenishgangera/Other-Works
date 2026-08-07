@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #111;
+}
+
+
+/* HEADER */
+header {
+    height: 38px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 10;
+}
+
+.logo {
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    width: 115px;
+}
+
+.search {
+    width: 355px;
+    height: 24px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    color: #777;
+    font-size: 10px;
+}
+
+.header-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.header-right button {
+    border: none;
+    background: #ff6551;
+    color: white;
+    font-size: 9px;
+    padding: 6px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bell {
+    font-size: 18px;
+}
+
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 38px;
+    left: 0;
+    width: 128px;
+    height: calc(100vh - 38px);
+    background: #f7f7f7;
+    border-right: 1px solid #ddd;
+    padding-top: 28px;
+}
+
+.menu {
+    height: 27px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background: #eaeaea;
+}
+
+.menu span {
+    font-size: 11px;
+}
+
+
+/* MAIN */
+main {
+    width: 330px;
+    margin-left: 148px;
+    padding-top: 63px;
+}
+
+
+/* STORIES */
+.stories {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 17px;
+}
+
+.story {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #f32b68;
+}
+
+.story img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* POST */
+.post {
+    width: 322px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 12px;
+    background: white;
+}
+
+.post-header {
+    font-size: 9px;
+    margin-bottom: 6px;
+}
+
+.post-header span {
+    color: #555;
+}
+
+.post-image {
+    width: 100%;
+    height: 201px;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+
+    .sidebar {
+        width: 65px;
+    }
+
+    .menu span {
+        display: none;
+    }
+
+    main {
+        margin-left: 80px;
+    }
+
+    .search {
+        width: 200px;
+    }
+}

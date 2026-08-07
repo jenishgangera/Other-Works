@@ -1,0 +1,1084 @@
+/* ======================================================
+   Google Font
+====================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ======================================================
+   Universal Selector
+====================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#21313c;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+/* ======================================================
+   Common Container
+====================================================== */
+
+.container{
+    width:90%;
+    max-width:1320px;
+    margin:auto;
+}
+
+/* ======================================================
+   Top Bar
+====================================================== */
+
+.top-bar{
+
+    width:100%;
+    background:#f5f5f5;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:10px 70px;
+
+    font-size:14px;
+
+    color:#5c6c75;
+}
+
+.language a{
+
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+/* ======================================================
+   Main Header
+====================================================== */
+
+.main-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 70px;
+
+}
+
+/* Logo */
+
+.logo a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo i{
+
+    font-size:38px;
+
+    color:#0aad0a;
+
+}
+
+.logo h1{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+/* ======================================================
+   Search Box
+====================================================== */
+
+.search-box{
+
+    width:520px;
+
+    height:46px;
+
+    border:1px solid #dfe2e1;
+
+    border-radius:8px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.search-box input{
+
+    width:100%;
+
+    height:100%;
+
+    border:none;
+
+    outline:none;
+
+    padding-left:18px;
+
+    font-size:15px;
+
+}
+
+.search-box button{
+
+    width:55px;
+
+    height:100%;
+
+    border:none;
+
+    background:transparent;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    color:#5c6c75;
+
+}
+
+/* ======================================================
+   Location Button
+====================================================== */
+
+.location button{
+
+    padding:11px 18px;
+
+    border:1px solid #dfe2e1;
+
+    background:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.location button:hover{
+
+    background:#f8f8f8;
+
+}
+
+/* ======================================================
+   Header Icons
+====================================================== */
+
+.header-icons{
+
+    display:flex;
+
+    gap:22px;
+
+}
+
+.icon{
+
+    position:relative;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    color:#5c6c75;
+
+}
+
+.icon span{
+
+    position:absolute;
+
+    top:-10px;
+
+    right:-8px;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    background:#0aad0a;
+
+    color:white;
+
+    font-size:11px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* ======================================================
+   Navigation
+====================================================== */
+
+nav{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+    padding:0 70px 20px;
+
+}
+
+.department-btn{
+
+    background:#0aad0a;
+
+    color:white;
+
+    border:none;
+
+    padding:13px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.department-btn i{
+
+    margin-right:8px;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    gap:28px;
+
+}
+
+nav ul li{
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+nav ul li a{
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    color:#0aad0a;
+
+}
+
+/* ======================================================
+   Hero Section
+====================================================== */
+
+.hero{
+
+    width:90%;
+    margin:30px auto;
+    height:420px;
+
+    background: #f3f4f5;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    overflow: hidden;
+
+}
+
+.hero-content{
+
+    width: 45%;
+
+}
+
+.hero-content h1{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-content p{
+
+     width:90%;
+    line-height:28px;
+    color:#5c6c75;
+    margin-bottom:30px;
+}
+
+.hero-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width: 720px;
+}
+.hero-content button{
+
+    background:#001e2b;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 28px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+/* ======================================================
+   PRODUCT TOOLBAR
+====================================================== */
+
+.product-toolbar{
+    width:90%;
+    margin:40px auto 30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.product-count h3{
+    font-size:24px;
+    font-weight:700;
+    color:#21313c;
+}
+
+.toolbar-right{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.view-btn{
+    width:42px;
+    height:42px;
+
+    border:1px solid #dfe2e1;
+    background:#fff;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.view-btn:hover{
+    background:#0aad0a;
+    color:#fff;
+}
+
+.toolbar-right select{
+
+    padding:10px 15px;
+
+    border:1px solid #dfe2e1;
+
+    border-radius:8px;
+
+    outline:none;
+
+    cursor:pointer;
+
+    color:#5c6c75;
+}
+
+
+/* ======================================================
+   PRODUCT GRID
+====================================================== */
+
+.products{
+
+    width:90%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-bottom:50px;
+
+}
+
+
+/* ======================================================
+   PRODUCT CARD
+====================================================== */
+
+.card{
+
+    position:relative;
+
+    background:#fff;
+
+    border:1px solid #e9ecef;
+
+    border-radius:12px;
+
+    padding:18px;
+
+    transition:.35s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#0aad0a;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+
+/* ======================================================
+   Product Image
+====================================================== */
+
+.card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:contain;
+
+    margin-bottom:15px;
+
+}
+
+
+/* ======================================================
+   Product Category
+====================================================== */
+
+.category{
+
+    font-size:13px;
+
+    color:#889397;
+
+    margin-bottom:8px;
+
+}
+
+
+/* ======================================================
+   Product Title
+====================================================== */
+
+.card h4{
+
+    font-size:17px;
+
+    color:#21313c;
+
+    line-height:26px;
+
+    margin-bottom:10px;
+
+}
+
+
+/* ======================================================
+   Rating
+====================================================== */
+
+.rating{
+
+    color:#f5b50a;
+
+    font-size:15px;
+
+    margin-bottom:15px;
+
+}
+
+.rating span{
+
+    color:#6c757d;
+
+    margin-left:8px;
+
+    font-size:14px;
+
+}
+
+
+/* ======================================================
+   Price
+====================================================== */
+
+.price{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    margin-bottom:18px;
+
+}
+
+.new-price{
+
+    color:#001e2b;
+
+    font-size:19px;
+
+    font-weight:700;
+
+}
+
+.old-price{
+
+    color:#889397;
+
+    text-decoration:line-through;
+
+}
+
+
+/* ======================================================
+   Add Button
+====================================================== */
+
+.add-btn{
+
+    width:100%;
+
+    height:42px;
+
+    background:#0aad0a;
+
+    color:#fff;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.add-btn:hover{
+
+    background:#088a08;
+
+}
+
+.add-btn i{
+
+    margin-right:8px;
+
+}
+
+
+/* ======================================================
+   Badges
+====================================================== */
+
+.badge-box{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+}
+
+.sale{
+
+    background:#198754;
+
+    color:#fff;
+
+    font-size:12px;
+
+    padding:4px 10px;
+
+    border-radius:5px;
+
+}
+
+.discount{
+
+    background:#dc3545;
+
+    color:#fff;
+
+    font-size:12px;
+
+    padding:4px 10px;
+
+    border-radius:5px;
+
+}
+
+/* ======================================================
+   PAGINATION
+====================================================== */
+
+.pagination{
+
+    width:90%;
+
+    margin:20px auto 60px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.pagination a{
+
+    width:40px;
+
+    height:40px;
+
+    border:1px solid #dfe2e1;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#5c6c75;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.pagination a:hover{
+
+    background:#0aad0a;
+
+    color:#fff;
+
+    border-color:#0aad0a;
+
+}
+
+.pagination .active{
+
+    background:#0aad0a;
+
+    color:#fff;
+
+    border-color:#0aad0a;
+
+}
+
+
+/* ======================================================
+   FOOTER
+====================================================== */
+
+footer{
+
+    border-top:1px solid #e9ecef;
+
+    padding:25px 70px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    color:#5c6c75;
+
+    font-size:14px;
+
+}
+
+.footer-left span{
+
+    color:#0aad0a;
+
+    font-weight:600;
+
+}
+
+.footer-right{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.footer-right a{
+
+    width:36px;
+
+    height:36px;
+
+    border:1px solid #dfe2e1;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#5c6c75;
+
+    transition:.3s;
+
+}
+
+.footer-right a:hover{
+
+    background:#0aad0a;
+
+    color:#fff;
+
+    border-color:#0aad0a;
+
+}
+
+
+/* ======================================================
+   SMOOTH HOVER EFFECTS
+====================================================== */
+
+button,
+a,
+.card,
+.icon{
+
+    transition:0.3s ease;
+
+}
+
+button:hover{
+
+    opacity:0.95;
+
+}
+
+.icon:hover{
+
+    color:#0aad0a;
+
+}
+
+
+/* ======================================================
+   TABLET RESPONSIVE
+====================================================== */
+
+@media(max-width:992px){
+
+.main-header{
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+.search-box{
+
+    width:100%;
+
+}
+
+nav{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+}
+
+nav ul{
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.hero{
+
+    height:300px;
+
+}
+
+.hero-content{
+
+    margin-left:35px;
+
+}
+
+.hero-content h1{
+
+    font-size:38px;
+
+}
+
+.hero-content p{
+
+    width:100%;
+
+}
+
+.products{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+footer{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    text-align:center;
+
+}
+
+}
+
+
+/* ======================================================
+   MOBILE RESPONSIVE
+====================================================== */
+
+@media(max-width:576px){
+
+.top-bar{
+
+    flex-direction:column;
+
+    gap:8px;
+
+    padding:10px;
+
+    text-align:center;
+
+}
+
+.main-header{
+
+    padding:20px;
+
+}
+
+.logo h1{
+
+    font-size:28px;
+
+}
+
+.search-box{
+
+    width:100%;
+
+}
+
+.location{
+
+    width:100%;
+
+}
+
+.location button{
+
+    width:100%;
+
+}
+
+.header-icons{
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+nav{
+
+    padding:20px;
+
+}
+
+.department-btn{
+
+    width:100%;
+
+}
+
+nav ul{
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+.hero{
+
+    height:260px;
+
+}
+
+.hero-content{
+
+    margin:25px;
+
+}
+
+.hero-content h1{
+
+    font-size:30px;
+
+}
+
+.hero-content p{
+
+    width:100%;
+
+    font-size:14px;
+
+}
+
+.product-toolbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    align-items:flex-start;
+
+}
+
+.toolbar-right{
+
+    flex-wrap:wrap;
+
+}
+
+.products{
+
+    grid-template-columns:1fr;
+
+}
+
+.card img{
+
+    height:200px;
+
+}
+
+footer{
+
+    padding:20px;
+
+}
+
+.footer-right{
+
+    justify-content:center;
+
+}
+
+}
